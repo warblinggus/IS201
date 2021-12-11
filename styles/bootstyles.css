@@ -1,0 +1,120 @@
+
+body {
+    background-image: url("..//images/background2.jpg");
+    background-color: aqua;
+}
+.tableauGrid2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    gap: 50px;
+}
+.tableauPlaceholder{
+border: solid 2px black;
+}
+
+.caption{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    gap: 100px;
+    font-family: cursive;
+}
+figcaption{
+    color: white;
+}
+.caption2{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin: 50px;
+    gap: 100px;
+    font-family: cursive;
+    
+}
+
+
+.tableauGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    gap: 50px;
+}
+ul {
+    list-style-type:square;
+    
+
+}
+.menu {
+    display: flex;
+    border: dashed 3px greenyellow;
+    background-color: black;
+    flex-direction: row;
+
+}
+.menu li {
+    text-align: center;
+    padding: 5px 5px;
+    flex-grow: 3;
+
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+.menu li a:hover {
+    font-size: 48px;
+}
+
+
+
+.menu {
+    display: flex;
+    height: 50px;
+    padding: 5px;
+    font-size: 26px;
+    list-style: none;
+    background-color: #13141c;
+    color: white;
+    margin: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: row;
+}
+  
+  .menu li {
+    text-align: center;
+    padding: 5px 5px;
+    flex-grow: 3;
+  }
+
+  .menu li a {
+      color: white;
+      text-decoration: none;
+  }
+
+  .menu li a:hover {
+      font-size: 30px;
+  }
+
+  .footer {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    color: black;
+    border: solid 2px black;
+    margin: 0px;
+    font-style: italic;
+}
+
+.title{
+    color: rgb(206, 206, 255);
+    font-style: bold;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    gap: 50px;
+    margin: 50px;
+}
